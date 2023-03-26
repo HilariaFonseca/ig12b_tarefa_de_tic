@@ -1,6 +1,7 @@
 import React from "react"
 import './App.css'
 
+
 import ComponenteUm from "./components/ComponenteUm"
 import ComponenteDois from "./components/ComponenteDois"
 import ComponenteTres from "./components/ComponenteTres"
@@ -12,10 +13,21 @@ import ComponenteNove from "./components/ComponenteNove"
 import ComponenteDez from "./components/ComponenteDez"
 
 import ComponentePai from "./components/comunicacao_direta/ComponentePai"
+import ComponenteMae from "./components/comunicacao_indireta/ComponenteMae"
+
+import ComponenteA from "./components/comunicacao_indireta_2/ComponenteA"
+
+import ComponenteAvoA from "./components/comunicacao_direta_2/ComponenteAvoA"
 
 function App(){
     return (
         <>
+            <ComponenteAvoA />
+
+            <ComponenteA titulo="Comunicação Indireta v2"></ComponenteA>
+
+            <ComponenteMae titulo="Comunicação Indireta"></ComponenteMae>
+
             <ComponentePai titulo="Comunicação Direta"></ComponentePai>
 
             <ComponenteDez titulo="Componente Dez" corTexto="red"/>

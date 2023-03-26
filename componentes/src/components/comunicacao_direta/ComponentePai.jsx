@@ -5,7 +5,7 @@ import ComponenteFilho from './ComponenteFilho'
 function ComponentePai(props){
     return (
         <div className="componente">
-            <p className="titulo">Título: {props.titulo}</p>
+                  <p className="titulo">Título: {props.titulo}</p>
             <p>Pai</p>
             <ComponenteFilho titulo="Componente Filho" cargo="administrador">
                 Hilária Fonseca

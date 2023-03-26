@@ -4,6 +4,7 @@ export default function(props) {
 
     function condicao(){
         switch (props.valor) {
+                                    
             case "Aida":
                 return <p>É o meu nome</p>
                 break;
@@ -13,7 +14,7 @@ export default function(props) {
             default:
                 return <p>Não conheco esse nome</p>
                 break;
-        }
+            }
     }
 
     return(

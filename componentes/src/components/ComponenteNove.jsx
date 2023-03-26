@@ -4,7 +4,7 @@ import CondicaoIf from "./CondicaoIf";
 export default function(props) {
     return (
         <div className="componente">
-            <p className="titulo">Título: {props.titulo}</p>
+             <p className="titulo">Título: {props.titulo}</p>
             <p>Nome: {props.valor}</p>
 
             <CondicaoIf condicao={props.valor === "Aida"}>
